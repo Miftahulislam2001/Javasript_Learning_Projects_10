@@ -1,0 +1,22 @@
+input{
+    width: 10rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.parent-div:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* add the shadow effect */
+}
+
+@media (min-width: 768px) {
+    .btn {
+        margin-top: 1rem;
+    }
+
+    input {
+        max-width: 7rem;
+    }
+}
