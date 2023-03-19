@@ -1,48 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html data-theme="light">
 
-</html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>Age Calculator</title>
 </head>
 
 <body>
-
-
     <div class="parent-div bg-blue-400 w-full md:w-1/2 h-auto mx-auto my-10 p-5 rounded">
         <div>
             <div>
-                <h1 class="text-center text-3xl font-serif font-bold text-blue-700 mt-5 mb-8">Age Calculator</h1>
+                <h1 class="text-center text-3xl font-serif font-bold text-blue-700 mt-5 mb-8">
+                    Age Calculator
+                </h1>
             </div>
 
             <div class="flex flex-col md:flex-row text-center justify-center gap-3 mt-8">
                 <div class="md:w-1/3">
                     <label for="">Date : </label>
                     <input type="text" name="date" id="date" minlength="1" maxlength="2" required placeholder=" dd"
-                        class="w-full md:w-32">
+                        class="w-full md:w-32" />
                 </div>
                 <div class="md:w-1/3">
                     <label for="">Month : </label>
                     <input type="text" name="month" id="month" minlength="1" maxlength="2" required placeholder=" mm"
-                        class="w-full md:w-32">
+                        class="w-full md:w-32" />
                 </div>
                 <div class="md:w-1/3">
                     <label for="">Year : </label>
                     <input type="text" name="year" id="year" minlength="4" maxlength="4" required placeholder=" yyyy"
-                        class="w-full md:w-32">
+                        class="w-full md:w-32" />
                 </div>
             </div>
 
             <div class="my-5 block text-center">
                 <button onclick="calculatorBtn()"
-                    class="bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg w-full md:w-auto mt-10">Calculate
-                    Age</button>
+                    class="bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg w-full md:w-auto mt-10">
+                    Calculate Age
+                </button>
             </div>
 
             <div>
@@ -51,8 +50,7 @@
         </div>
     </div>
 
-
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
